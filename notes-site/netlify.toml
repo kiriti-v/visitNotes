@@ -1,0 +1,7 @@
+[build]
+  base = "visitNotes/notes-site"
+  publish = "dist"
+  command = "npm run build"
+
+[context.production]
+  branch = "deployment" 
